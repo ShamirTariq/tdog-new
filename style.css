@@ -1,0 +1,546 @@
+.bg-nav {
+  height: 80px;
+}
+
+.nav-content {
+  padding-top: 10px;
+}
+
+.custom-shadow-1 {
+  box-shadow: 0 1.5px 0px rgba(0, 0, 0, 0.2);
+
+  background-color: #fff;
+}
+.custom-shadow-2 {
+  box-shadow: 0 1.7px 0px rgba(0, 0, 0, 0.2);
+
+  background-color: #fff;
+}
+
+.custom-shadow-4 {
+  box-shadow: 0 2px 0px rgba(0, 0, 0, 0.2);
+
+  background-color: #fff;
+}
+
+.custom-shadow-6 {
+  box-shadow: 0 1.7px 0px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+.custom-shadow-7 {
+  box-shadow: 0 1.5px 0px rgba(0, 0, 0, 0.2);
+
+  background-color: #fff;
+}
+
+.bg-nav li a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.doted {
+  background-image: url("dots.png");
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+}
+
+.justify {
+  justify-content: center;
+  align-items: center;
+}
+
+.buy-dog {
+  height: 50px;
+  margin-top: 5px;
+}
+
+.dog-nav {
+  height: 50px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.display_property {
+  display: flex;
+}
+
+.align {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.monet-dog {
+  height: 280px;
+}
+
+.monet {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.tethe {
+  text-align: center;
+}
+
+.tethe-dog {
+  height: 180px;
+  text-align: right;
+}
+
+.stability {
+  height: 100px;
+  text-align: center;
+}
+
+.doted-2 {
+  background-image: url("dots.png");
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+}
+
+.doted-parent {
+  height: 800px;
+}
+
+.frame-8 {
+  width: 400px;
+}
+
+.image-2 {
+  height: 300px;
+  margin-left: 150px;
+}
+
+.text-1 {
+  text-align: right;
+  margin-top: 80px;
+}
+
+.dog-1 {
+  text-align: left;
+}
+
+.laptop-1 {
+  padding-top: 50px;
+}
+
+.laptop-text {
+  width: 400px;
+
+  padding-top: 130px;
+}
+
+.laptop {
+  height: 300px;
+  padding-right: 100px;
+}
+
+.text-2 {
+  text-align: right;
+}
+
+.breakthrough-section {
+  justify-content: center;
+}
+
+.breakthrough {
+  width: 100%;
+}
+
+.mobile {
+  height: 250px;
+  padding-right: 20px;
+}
+
+.graph {
+  height: 250px;
+  padding-right: 20px;
+}
+
+.boxes {
+  height: 250px;
+  padding-right: 20px;
+}
+
+.ideal-tool {
+  width: 750px;
+}
+
+.tool-section {
+  justify-content: center;
+}
+
+.phase-section {
+  justify-content: center;
+}
+
+.instant {
+  height: 200px;
+  padding-right: 20px;
+}
+
+.security {
+  height: 200px;
+  padding-right: 20px;
+}
+
+.wallet {
+  height: 200px;
+  padding-right: 20px;
+}
+
+.please {
+  height: 200px;
+  padding-right: 20px;
+  width: 302.68px;
+}
+
+.steps {
+  width: 700px;
+}
+
+.roadmap {
+  width: 600px;
+}
+
+.revolution {
+  width: 400px;
+  padding-top: 50px;
+}
+
+.ready {
+  width: 350px;
+}
+
+.puppy {
+  justify-content: space-evenly;
+}
+
+.bottom {
+  width: 100%;
+}
+
+.diamond-outer {
+  width: 100%;
+  height: 300px;
+  background-image: linear-gradient(to right, #addefd, #2a8bc9, #addefd);
+  position: relative;
+}
+
+.diamond-inner {
+  width: 50%;
+  height: 260px;
+  background-color: #adddff;
+  border-radius: 15px;
+  position: absolute;
+  margin-top: 20px;
+  left: 25%;
+}
+
+.unique {
+  width: 300px;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.diamond {
+  height: 250px;
+  margin-top: 20px;
+}
+
+.diamond-text {
+  width: 300px;
+  margin-top: 60px;
+}
+
+/* ------------------------------- */
+
+/* for medium to large screen media query */
+@media (min-width: 300px) and (max-width: 990px) {
+/* .box {
+  width: 100%;
+  height: 50vh;
+} */
+
+  .tethe-dog {
+    height: 150px;
+  }
+
+  .stability-img {
+    width: 370px;
+  }
+
+  .doted {
+    height: 550px;
+  }
+
+  .monet {
+    text-align: center;
+  }
+
+  .breakthrough {
+    width: 700px;
+    text-align: center;
+  }
+
+  .text-1 {
+text-align: center;
+  margin-top: 0px;
+}
+
+.dog-1 {
+  text-align: center;
+}
+
+
+
+  .diamond-outer {
+  width: 100%;
+  height: 300px;
+  background-image: linear-gradient(to right, #addefd, #2a8bc9, #addefd);
+  position: relative;
+}
+
+.diamond-inner {
+  width: 74%;
+  height: 280px;
+  background-color: #adddff;
+  border-radius: 15px;
+  position: absolute;
+  margin-top: 20px;
+  left: 13%;
+}
+
+.diamond {
+  height: 250px;
+  margin-top: 20px;
+padding-right: 50px;
+}
+
+.diamond-text {
+  width: 250px;
+  margin-top: 500px;
+}
+
+.unique {
+  width: 250px;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.stability {
+  height: 0px;
+  text-align: center;
+}
+
+.doted-2 {
+  background-image: url("dots.png");
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+}
+
+.doted-parent {
+  height: 800px;
+  margin-bottom: 100px;
+  
+}
+
+.frame-8 {
+  width: 400px;
+  text-align: center;
+  align-items: center;
+
+}
+
+.image-2 {
+  height: 350px;
+  margin-left: 0px;
+  
+}
+
+.text-1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+
+
+
+.laptop-text {
+  width: 450px;
+text-align: center;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.laptop {
+  height: 350px;
+  text-align: center;
+  padding-left: 90px;
+}
+
+
+.breakthrough-section {
+  justify-content: center;
+}
+
+.breakthrough {
+  width: 100%;
+}
+
+.ideal-tool {
+  width: 350px;
+}
+
+.roadmap {
+  width: 350px;
+}
+
+.steps {
+  width: 300px;
+}
+
+.revolution {
+  width: 300px;
+  padding-top: 50px;
+}
+
+.ready {
+  width: 200px;
+}
+
+}
+
+/* ====================for small screen===================== */
+@media (min-width: 300px) and (max-width: 640px) {
+
+  body {
+    overflow-x: hidden;
+  }
+  .diamond-outer {
+  width: 100%;
+  height: 500px;
+  background-image: linear-gradient(to right, #addefd, #2a8bc9, #addefd);
+  position: relative;
+}
+
+.diamond-inner {
+  width: 74%;
+  height: 460px;
+  background-color: #adddff;
+  border-radius: 15px;
+  position: absolute;
+  margin-top: 20px;
+  left: 13%;
+}
+
+.diamond {
+ 
+  margin-top: 20px;
+
+}
+
+.diamond-text {
+  width: 250px;
+  margin-top: 0px;
+}
+
+.unique {
+  width: 250px;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.stability {
+  display: none;
+}
+
+.doted-2 {
+  background-image: url("dots.png");
+  background-size: cover;
+  background-position: center;
+  height: 900px;
+}
+
+.doted-parent {
+  height: 900px;
+}
+
+.frame-8 {
+  width: 250px;
+  text-align: center;
+  align-items: center;
+}
+
+.image-2 {
+  height: 200px;
+  margin-left: 0px;
+}
+
+.text-1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+
+
+
+.laptop-text {
+  width: 300px;
+text-align: center;
+  padding-top: 0px;
+  padding-left: 50px;
+}
+
+.laptop {
+  height: 200px;
+  text-align: center;
+  padding-left: 90px;
+}
+
+
+.breakthrough-section {
+  justify-content: center;
+}
+
+.breakthrough {
+  width: 100%;
+}
+
+.ideal-tool {
+  width: 300px;
+}
+
+.roadmap {
+  width: 300px;
+}
+
+.steps {
+  width: 250px;
+}
+
+.revolution {
+  width: 300px;
+  padding-top: 50px;
+}
+
+.ready {
+  width: 200px;
+}
+
+}
+
